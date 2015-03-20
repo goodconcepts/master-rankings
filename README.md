@@ -1,5 +1,5 @@
 # master-rankings
-PHP Script to automate rankings of sports results by master athletes
+PHP Script to automate rankings of best sports performances by master athletes in a certain season.
 
 Version 0.1 of this PHP script was created by Denise van der Linden-Morris to automate sorting tasks when creating master data rankings as a volunteer for the Dutch Athletics Federation.
 
@@ -10,4 +10,4 @@ Although Denise has some basic programming knowledge she doesn't work as a progr
 
 Area's for improvement:
 - Convert inputfiles (excel, csv) to standard format prior to upload into database
-- Eliminate duplicate results for a particular athlete. Each athlete should only appear once in the ranking with their best result. Right now the script sorts the uploaded results without looking for duplicate athletes as no logic is implemented to know which record to delete
+- Eliminate duplicate results for a particular athlete. Each athlete should only appear in the ranking with their best result in a particular season. Right now the script sorts the uploaded results without looking for duplicate entries as no logic is implemented to know which record to delete
